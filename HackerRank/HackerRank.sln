@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripletsComparator", "TripletsComparator\TripletsComparator.csproj", "{7FFF0AAC-40DC-4F66-8162-B853AE767E0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifference", "DiagonalDifference\DiagonalDifference.csproj", "{87E6F12F-EE67-49C7-A754-DB83251A5B80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiagonalDifference", "DiagonalDifference\DiagonalDifference.csproj", "{87E6F12F-EE67-49C7-A754-DB83251A5B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusMinus", "PlusMinus\PlusMinus.csproj", "{C8A124CF-14EB-468D-94F6-F0DD3CFB86DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{87E6F12F-EE67-49C7-A754-DB83251A5B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87E6F12F-EE67-49C7-A754-DB83251A5B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87E6F12F-EE67-49C7-A754-DB83251A5B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A124CF-14EB-468D-94F6-F0DD3CFB86DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A124CF-14EB-468D-94F6-F0DD3CFB86DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A124CF-14EB-468D-94F6-F0DD3CFB86DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A124CF-14EB-468D-94F6-F0DD3CFB86DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
