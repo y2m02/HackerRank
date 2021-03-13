@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiagonalDifference", "Diago
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlusMinus", "PlusMinus\PlusMinus.csproj", "{C8A124CF-14EB-468D-94F6-F0DD3CFB86DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxSum", "MinMaxSum\MinMaxSum.csproj", "{88FC35B0-6137-475A-9520-A14DE1F396F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinMaxSum", "MinMaxSum\MinMaxSum.csproj", "{88FC35B0-6137-475A-9520-A14DE1F396F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayCakeCandles", "BirthdayCakeCandles\BirthdayCakeCandles.csproj", "{65471DF3-A987-415E-ACBC-9535EA9D95F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{88FC35B0-6137-475A-9520-A14DE1F396F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88FC35B0-6137-475A-9520-A14DE1F396F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88FC35B0-6137-475A-9520-A14DE1F396F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65471DF3-A987-415E-ACBC-9535EA9D95F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65471DF3-A987-415E-ACBC-9535EA9D95F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65471DF3-A987-415E-ACBC-9535EA9D95F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65471DF3-A987-415E-ACBC-9535EA9D95F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
