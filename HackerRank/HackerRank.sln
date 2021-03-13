@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripletsComparator", "Tripl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiagonalDifference", "DiagonalDifference\DiagonalDifference.csproj", "{87E6F12F-EE67-49C7-A754-DB83251A5B80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusMinus", "PlusMinus\PlusMinus.csproj", "{C8A124CF-14EB-468D-94F6-F0DD3CFB86DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlusMinus", "PlusMinus\PlusMinus.csproj", "{C8A124CF-14EB-468D-94F6-F0DD3CFB86DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staircase", "Staircase\Staircase.csproj", "{070C7581-3C29-4C84-967F-B2A32D01FB7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C8A124CF-14EB-468D-94F6-F0DD3CFB86DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8A124CF-14EB-468D-94F6-F0DD3CFB86DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8A124CF-14EB-468D-94F6-F0DD3CFB86DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070C7581-3C29-4C84-967F-B2A32D01FB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070C7581-3C29-4C84-967F-B2A32D01FB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070C7581-3C29-4C84-967F-B2A32D01FB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070C7581-3C29-4C84-967F-B2A32D01FB7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
