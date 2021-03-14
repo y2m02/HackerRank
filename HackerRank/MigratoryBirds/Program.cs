@@ -31,6 +31,15 @@ namespace MigratoryBirds
                     3,
                     3,
                     3,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,9
                 }
             );
 
@@ -39,15 +48,26 @@ namespace MigratoryBirds
 
         private static int GetTheSmallestBirdId(List<int> birdIds)
         {
-            return birdIds
-                .GroupBy(id => id)
-                .Select(group => (id: group.Key, repetitions: group.Count()))
-                .GroupBy(bird => bird.repetitions)
-                .OrderByDescending(group => group.Key)
-                .First()
-                .OrderBy(bird => bird.id)
-                .First()
-                .id;
+            var birdCounts = new int[10];
+
+            foreach (var type in birdIds)
+            {
+                birdCounts[type]++;
+            }
+
+            return birdCounts.ToList().IndexOf(birdCounts.Max());
+
+
+
+            //return birdIds
+            //    .GroupBy(id => id)
+            //    .Select(group => (id: group.Key, repetitions: group.Count()))
+            //    .GroupBy(bird => bird.repetitions)
+            //    .OrderByDescending(group => group.Key)
+            //    .First()
+            //    .OrderBy(bird => bird.id)
+            //    .First()
+            //    .id;
         }
     }
 }
