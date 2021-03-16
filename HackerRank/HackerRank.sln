@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirthdayCakeCandles", "Birt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngryProfessor", "AngryProfessor\AngryProfessor.csproj", "{64793CC5-4ACB-4901-BCE1-894AD401A0C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigratoryBirds", "MigratoryBirds\MigratoryBirds.csproj", "{3C32777A-2498-4F61-A135-364B7FD2E93B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MigratoryBirds", "MigratoryBirds\MigratoryBirds.csproj", "{3C32777A-2498-4F61-A135-364B7FD2E93B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisibleSumPairs", "DivisibleSumPairs\DivisibleSumPairs.csproj", "{17225A29-BCFF-47D3-B9BB-59D8B14A999F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{3C32777A-2498-4F61-A135-364B7FD2E93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C32777A-2498-4F61-A135-364B7FD2E93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C32777A-2498-4F61-A135-364B7FD2E93B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17225A29-BCFF-47D3-B9BB-59D8B14A999F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17225A29-BCFF-47D3-B9BB-59D8B14A999F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17225A29-BCFF-47D3-B9BB-59D8B14A999F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17225A29-BCFF-47D3-B9BB-59D8B14A999F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
