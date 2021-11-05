@@ -39,6 +39,31 @@ namespace MagicSquare
 
         public static void Main(string[] args)
         {
+            var n = 2;
+
+            if (n % 3 == 0 && n % 5 == 0)
+            {
+                Console.WriteLine("FizzBuzz");
+
+                return;
+            }
+
+            if (n % 3 == 0)
+            {
+                Console.WriteLine("Fizz");
+
+                return;
+            }
+
+            if (n % 5 == 0)
+            {
+                Console.WriteLine("Buzz");
+
+                return;
+            }
+
+            Console.WriteLine(n);
+
             var now = DateTime.Now;
             //var movements = CalculateMovements(new List<List<int>>
             //{
